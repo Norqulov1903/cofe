@@ -1,0 +1,208 @@
+@import "./about/_header";
+@import "./about/_main";
+@import "./about/_footer";
+
+@font-face {
+  font-family: "Barlow";
+  src: url("./fonts/Barlow-Medium.otf");
+}
+@font-face {
+  font-family: "Fraunces 9pt";
+  src: url("./fonts/fraunces-9pt-s000-regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sayt {
+  width: 90%;
+
+  margin: auto;
+}
+@media (max-width: 1110px) {
+  main .good {
+    margin-top: 420px;
+  }
+  main .quality {
+    display: block;
+    text-align: center;
+    height: 600px;
+    flex-direction: column-reverse;
+  }
+  main .quality .quality__img {
+    margin-top: 10px;
+    // width: 700px;
+    width: 100%;
+    height: auto;
+  }
+  main .quality .quality__img img {
+    width: 100%;
+    max-width: 540px;
+    margin-top: 30px;
+  }
+  main .quality .quality__title {
+    margin: auto;
+    width: 100%;
+    max-width: 840px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 992px) {
+  main .quality .quality__title .quality__title__description {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  main .quality .quality__title .quality__title__tayp {
+    font-size: 38px;
+  }
+  main .hide .hide__img {
+    width: 281px;
+    height: 470px;
+  }
+  main .hide .hide__card {
+    width: 340px;
+  }
+  main .hide .hide__card .hide__card__description {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    color: #333d4b;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  main .hide .hide__card .hide__card__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+    color: #333d4b;
+  }
+  footer {
+    display: block;
+  }
+  footer .footer__logotip {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  footer .footer__icons {
+    width: 40%;
+    margin: auto;
+  }
+  footer .footer__logotip nav ul {
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 720px) {
+  main .hide {
+    display: block;
+    margin-top: 20px;
+  }
+  main .hide .hide__img {
+    margin: auto;
+    width: 400px;
+  }
+  main .hide .hide__card {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+  }
+  main .hide .hide__card .hide__card__description {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  main .good .good__card {
+    display: block;
+  }
+  main .good .good__card .good__card__box {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  main .good .good__title {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 600px) {
+  main .bild .bild__card {
+    text-align: center;
+    width: 100%;
+  }
+  main .bild .bild__card .bild__card__title {
+    margin: 0px;
+  }
+  main .bild .bild__card .bild__card__description {
+    margin: 0px;
+    padding: 30px;
+  }
+  main .hide .hide__img {
+    margin: auto;
+    width: 280px;
+  }
+  main .hide .hide__card .hide__card__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #333d4b;
+  }
+  main .hide .hide__card .hide__card__description {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #333d4b;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  main .hide {
+    margin-top: 50px;
+  }
+  main .quality .quality__img img {
+    width: 280px;
+  }
+  main .quality .quality__title .quality__title__tayp {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+  }
+  main .quality .quality__img img {
+    margin-top: 50px;
+  }
+  footer .footer__logotip {
+    width: 100%;
+  }
+  footer .footer__logotip nav ul {
+    display: block;
+  }
+  footer .footer__logotip nav ul li {
+    margin-top: 10px;
+  }
+  footer .footer__icons {
+    margin-top: 0px;
+  }
+}

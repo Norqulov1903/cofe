@@ -1,0 +1,188 @@
+main {
+  width: 100%;
+
+  .bild {
+    width: 100%;
+    height: 450px;
+    background: url("../../images2/Bitmap\ \(1\).png") no-repeat center
+      center/cover;
+
+    .bild__card {
+      width: 500px;
+
+      .bild__card__title {
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+        padding-top: 137px;
+        margin-left: 85px;
+        margin-bottom: 24px;
+
+        color: #fefcf7;
+      }
+      .bild__card__description {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        margin-left: 85px;
+
+        color: #fefcf7;
+      }
+    }
+  }
+  .hide {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 160px;
+    .hide__img {
+      width: 445px;
+      height: 520px;
+      border-radius: 5px;
+      background: url("../../images2/img3.png") no-repeat center center/cover;
+    }
+    .hide__card {
+      width: 40%;
+      .hide__card__title {
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+
+        color: #333d4b;
+      }
+      .hide__card__description {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        margin-top: 32px;
+
+        color: #333d4b;
+
+        mix-blend-mode: normal;
+        opacity: 0.8;
+      }
+    }
+  }
+  .quality {
+    width: 100%;
+    height: 470px;
+    background-color: #333d4b;
+    border-radius: 10px;
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .quality__title {
+      width: 540px;
+      .quality__title__tayp {
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+
+        color: #fefcf7;
+      }
+      .quality__title__description {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        margin-top: 32px;
+
+        color: #fefcf7;
+
+        mix-blend-mode: normal;
+        opacity: 0.8;
+      }
+    }
+    .quality__img {
+      width: 40%;
+      margin-top: -210px;
+      border-radius: 10px;
+
+      img {
+        border-radius: 10px;
+      }
+    }
+  }
+  .good {
+    width: 100%;
+    max-width: 1100px;
+    margin: 100px auto;
+    .good__title {
+      font-family: "Fraunces";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+
+      color: #83888f;
+    }
+    .good__card {
+      max-width: 100%;
+
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .good__card__box {
+        width: 27%;
+        height: 340px;
+
+        .good__card__box__img {
+          width: 40px;
+          height: 50px;
+        }
+        .good__card__box__title {
+          font-family: "Fraunces";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 32px;
+          line-height: 36px;
+          /* identical to box height, or 112% */
+          margin-top: 45px;
+
+          color: #333d4b;
+        }
+        .list {
+          list-style: none;
+          margin-top: 24px;
+        }
+        .list .list__item {
+          margin-top: 10px;
+        }
+        .list .list__item a {
+          display: block;
+          text-decoration: none;
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          /* or 162% */
+
+          color: #333d4b;
+        }
+      }
+    }
+  }
+}

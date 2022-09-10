@@ -1,0 +1,378 @@
+@import "./about.scss";
+@import "./subscribe.scss";
+@import "./header";
+@import "./main.style";
+@import "./_footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.blok {
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .main .works {
+    width: 100%;
+  }
+  .main .works .work__card {
+    width: 95%;
+  }
+  .main .works .work__card .work__card__footer {
+    width: 400px;
+    margin-right: 10px;
+  }
+
+  .main .work .work__title .work__title__page {
+    font-size: 60px;
+  }
+  .work__title__description {
+    font-size: 14px !important;
+  }
+  .main .grid .grid__card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 255px;
+    text-align: left;
+
+    .grid__card__img {
+      width: 35%;
+      height: 250px;
+
+      align-items: center;
+
+      img {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+
+    .grid__card__title {
+      width: 40%;
+      h2 {
+        margin-top: 60px;
+      }
+      p {
+        margin-top: 24px;
+      }
+    }
+  }
+  .main .king {
+    height: 766px;
+  }
+  .main .grid {
+    margin-top: -50px;
+  }
+  .main .king .king__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .main .king .king__inner .king__inner__card {
+    width: 90%;
+    display: flex;
+    margin: 20px auto;
+  }
+  .main .king .king__inner .king__inner__card .king__inner_card__img {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .king .king__inner .king__inner__card .king__inner__card__title p {
+    width: 49%;
+  }
+  .main .king .king__inner .king__inner__card .king__inner__card__title {
+    width: 65%;
+    h3 {
+      margin-top: 40px;
+      text-align: left;
+      font-family: "Fraunces";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+
+      color: #fefcf7;
+    }
+    p {
+      text-align: left;
+      margin: 26px 0px;
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+
+      /* or 167% */
+
+      color: #fefcf7;
+    }
+  }
+  footer .footer__logo {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .work {
+    height: 450px;
+  }
+  .main .work .work__title {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .main .work .work__title .work__title__page {
+    font-size: 32px;
+  }
+  .main .work .work__title .work__title__description {
+    font-size: 12px;
+  }
+  .main .work .work__title .work__title__btn {
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .main .king .king__inner .king__inner__card .king__inner__card__title h3 {
+    margin-top: 10px;
+  }
+  .main .works {
+    margin-top: 450px;
+  }
+  .blok footer {
+    display: block;
+  }
+  footer .footer__logo {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .footer__logo nav ul {
+    justify-content: center;
+  }
+
+  footer .footer__icon {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+    width: 40%;
+  }
+  footer .footer__logo nav ul li a {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main .king .king__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .main .king .king__inner .king__inner__card {
+    display: flex;
+    flex-direction: row;
+  }
+  .main .king .king__inner .king__inner__card .king__inner_card__img {
+    width: 100%;
+  }
+  .main .king .king__inner .king__inner__card .king__inner__card__title {
+    width: 100%;
+  }
+  .main .king .king__inner .king__inner__card .king__inner_card__img {
+    max-width: 30%;
+  }
+  .main .king .king__inner .king__inner__card .king__inner_card__img {
+    padding: 72px 100px 72px 100px;
+  }
+  .main .king .king__inner .king__inner__card .king__inner__card__title {
+    max-width: 60%;
+  }
+  .main .works .works__box .works__box__aylana {
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .main .works .work__card .work__card__footer h1 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+  .main .works .work__card .work__card__footer h2 {
+    margin-top: 38px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333d4b;
+  }
+  footer .footer__logo nav ul {
+    display: block;
+  }
+  footer .footer__logo nav ul li a {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main .work .work__title {
+    width: 100%;
+
+    text-align: center;
+    margin: 50px auto;
+  }
+  .main .work .work__title .work__title__page {
+    font-size: 42px;
+    padding: 20px 20px;
+  }
+  .main .work .work__title .work__title__description {
+    font-size: 30px;
+    padding: 0px 20px;
+  }
+  .main .work .work__title .work__title__btn {
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .main .grid .grid__card {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    text-align: center;
+  }
+  .main .grid .grid__card .grid__card__img {
+    height: 130px;
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+  }
+  .main .grid .grid__card .grid__card__title h2 {
+    margin-top: 20px;
+  }
+  .main .grid .grid__card .grid__card__title {
+    margin: auto;
+    width: 80%;
+  }
+  .main .king .king__tayp {
+    width: 100%;
+  }
+  .main .king .king__tayp p {
+    padding: 0px 20px;
+  }
+  .main .king .king__tayp h2 {
+    padding-top: 50px;
+  }
+  .main .king .king__inner .king__inner__card {
+    display: block;
+  }
+  .main .king .king__inner .king__inner__card .king__inner_card__img {
+    max-width: 100%;
+  }
+  .main .king .king__inner .king__inner__card .king__inner__card__title {
+    max-width: 100%;
+  }
+  .main .king .king__inner .king__inner__card .king__inner__card__title h3 {
+    text-align: center;
+  }
+  .main .king .king__inner .king__inner__card .king__inner__card__title p {
+    text-align: center;
+  }
+
+  .main .king .king__inner .king__inner__card .king__inner__card__title p {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .main .king {
+    height: 960px;
+  }
+  .main .work {
+    height: 550px;
+  }
+  .main .work .work__title .work__title__page {
+    padding-top: 100px;
+  }
+  .main .works {
+    margin-top: 800px;
+  }
+  .main .works .works__box {
+    display: none;
+  }
+  .main .works .works__tayp h3 {
+    text-align: center;
+  }
+  .main .works .work__card {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .main .works .work__card .work__card__footer {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .main .works .work__card .work__card__footer h1 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+  .main .works .work__card .work__card__footer p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main .works .salom .salom__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #0e8784;
+    padding: 15px 31px;
+    text-align: center;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  footer .footer__logo {
+    width: 100%;
+  }
+  footer .footer__icon {
+    width: 90%;
+  }
+  footer .footer__logo img {
+    width: 210px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  footer .footer__logo nav {
+    width: 100%;
+  }
+  footer .footer__logo nav ul {
+    display: block;
+  }
+  footer .footer__logo nav ul li a {
+    padding-top: 10px;
+  }
+}

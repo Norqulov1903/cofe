@@ -1,0 +1,385 @@
+main {
+  width: 100%;
+
+  margin-top: 40px;
+  .brek {
+    width: 100%;
+    height: 450px;
+    background: url("../../images1/img1.png") no-repeat center center/cover;
+
+    .brek__card {
+      width: 100%;
+      max-width: 500px;
+
+      .brek__card__title {
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        /* identical to box height, or 100% */
+
+        color: #fefcf7;
+
+        padding-top: 137px;
+        margin-left: 85px;
+        margin-bottom: 24px;
+      }
+      .brek__card__description {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        color: #fefcf7;
+
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-left: 85px;
+      }
+    }
+  }
+  .bg {
+    width: 100%;
+    background-color: #293039;
+    border-radius: 5px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .bg__inner {
+      width: 90%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      .bg__inner__tayp {
+        width: 80%;
+        height: 50px;
+
+        align-items: center;
+        display: flex;
+
+        .bg__inner__tayp__aylana {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 1px solid blue;
+        }
+        .bg__inner__tayp__chiziq {
+          width: 400px;
+          height: 2px;
+          border: 1px solid gold;
+          background-color: gold;
+        }
+      }
+      .bg__inner__card {
+        width: 90%;
+
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+        .bg__inner__card__box {
+          width: 250px;
+
+          h1 {
+            font-family: "Fraunces";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            /* identical to box height, or 100% */
+
+            color: #fdd6ba;
+          }
+          h2 {
+            font-family: "Fraunces";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            /* or 112% */
+            margin-top: 32px;
+
+            color: #fefcf7;
+          }
+          p {
+            font-family: "Barlow";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+            margin-top: 42px;
+
+            color: #fefcf7;
+          }
+        }
+      }
+    }
+  }
+  .active {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    .active__menu {
+      width: 25%;
+      height: 300px;
+
+      .active__menu__card {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 2px solid gray;
+        display: flex;
+
+        align-items: center;
+        margin-top: 15px;
+        h4 {
+          font-family: "Fraunces";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 24px;
+          line-height: 32px;
+          /* identical to box height, or 133% */
+          transition: all 0.5s;
+
+          color: gray;
+        }
+        p {
+          font-family: "Fraunces";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 24px;
+          line-height: 32px;
+          /* identical to box height, or 133% */
+          transition: all 0.5s;
+
+          color: gray;
+        }
+        h4:hover {
+          color: #0e8784;
+        }
+        p:hover {
+          color: black;
+        }
+      }
+    }
+    .active__card {
+      width: 60%;
+      // height: 2000px;
+
+      h2 {
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+
+        color: #83888f;
+      }
+      .active__card__table {
+        width: 100%;
+        // height: 370px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+
+        margin-top: 30px;
+
+        .active__card__table__box {
+          width: 30%;
+          border-radius: 10px;
+
+          h3 {
+            font-family: "Fraunces";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            /* identical to box height, or 133% */
+            margin-top: 32px;
+
+            margin-left: 28px;
+          }
+          p {
+            font-family: "Barlow";
+            font-style: normal;
+            font-weight: 400;
+            margin-top: 24px;
+            margin-left: 28px;
+            margin-right: 28px;
+            padding-bottom: 20px;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+          }
+        }
+      }
+
+      .active__card__table__box:nth-child(2) {
+        background-color: #0e8784;
+        h3 {
+          color: white;
+        }
+        p {
+          color: white;
+        }
+      }
+      .active__card__table__box:nth-child(3) {
+        background-color: #fdd6b9;
+
+        h3 {
+          color: #333d4b;
+        }
+        p {
+          color: #333d4b;
+        }
+      }
+      .active__card__table__box:nth-child(1) {
+        background-color: #f4f1eb;
+        h3 {
+          color: #333d4b;
+        }
+        p {
+          color: #333d4b;
+        }
+      }
+    }
+  }
+  .active__simple {
+    width: 100%;
+    // height: 400px;
+    margin-top: 20px;
+    h3 {
+      font-family: "Fraunces";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      /* identical to box height, or 120% */
+
+      color: #83888f;
+    }
+    .active__simple__inner {
+      width: 100%;
+
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      .active__simple__inner__card {
+        width: 30%;
+        transition: all 0.5s;
+        border-radius: 10px;
+        background-color: #f4f1eb;
+        h3 {
+          font-family: "Fraunces";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 24px;
+          line-height: 32px;
+          /* identical to box height, or 133% */
+          margin-top: 32px;
+          margin-left: 28px;
+
+          color: #333d4b;
+        }
+        p {
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          margin-left: 28px;
+          margin-top: 24px;
+          margin-right: 28px;
+          padding-bottom: 90px;
+          /* or 162% */
+
+          color: #333d4b;
+        }
+      }
+    }
+    .active__simple__inner__card:hover {
+      background-color: #0e8784;
+      h3 {
+        color: white;
+      }
+      p {
+        color: white;
+      }
+    }
+  }
+  .active__title {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: #293039;
+    border-radius: 10px;
+    margin-top: 30px;
+    h5 {
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height, or 162% */
+
+      margin-top: 27px;
+      margin-left: 64px;
+      text-transform: uppercase;
+
+      color: #ffffff;
+
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+    p {
+      font-family: "Fraunces";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 27px;
+      line-height: 40px;
+      margin-left: 64px;
+      margin-top: 8px;
+      margin-right: 64px;
+      margin-bottom: 27px;
+      /* or 167% */
+
+      color: #ffffff;
+    }
+    span {
+      color: #117c7a;
+    }
+  }
+  .active__button {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+  }
+  .submit {
+    width: 217px;
+    height: 56px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    background: #66d2cf;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 6px;
+    border: none;
+  }
+  .submit:hover {
+    background-color: white;
+    border: 1px solid #66d2cf;
+    color: #66d2cf;
+  }
+}

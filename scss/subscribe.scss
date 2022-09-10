@@ -1,0 +1,175 @@
+@import "./subsicribe/_header";
+@import "./subsicribe/_main";
+@import "./subsicribe/_footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 90%;
+  margin: auto;
+}
+@media (max-width: 1110px) {
+  main .bg .bg__inner .bg__inner__card {
+    width: 100%;
+  }
+  main .active .active__menu {
+    display: none;
+  }
+  main .active {
+    display: block;
+  }
+  main .active .active__card {
+    width: 90%;
+    margin: auto;
+  }
+  main .active .active__card .active__card__table {
+    display: none;
+  }
+  main .active .active__card h2 {
+    display: none;
+  }
+  main .active__simple .active__simple__inner {
+    margin-bottom: 50px;
+  }
+  footer .footer__logo {
+    width: 70%;
+  }
+}
+@media (max-width: 992px) {
+  main .bg .bg__inner .bg__inner__card .bg__inner__card__box h1 {
+    font-size: 50px;
+  }
+  main .bg .bg__inner .bg__inner__card .bg__inner__card__box h2 {
+    font-size: 25px;
+  }
+  main .bg .bg__inner .bg__inner__card .bg__inner__card__box p {
+    font-size: 12px;
+
+    margin-right: 15px;
+  }
+  main .bg .bg__inner .bg__inner__tayp .bg__inner__tayp__aylana {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  main .active .active__card h2 {
+  }
+  main .active .active__card h2 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+    color: #83888f;
+  }
+  main .active__simple .active__simple__inner .active__simple__inner__card h3 {
+    padding-right: 15px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #333d4b;
+  }
+  main .active__title {
+  }
+  main .active__title p {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+
+    /* or 167% */
+
+    color: #ffffff;
+  }
+  footer{
+    display: block;
+  
+  }
+
+  footer .footer__logo{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+  text-align: center;
+  }
+  footer .footer__logo nav ul{
+    justify-content: center;
+    margin-top: 15px;
+  }
+  footer .footer__icon{
+    margin:auto ;
+  }
+  footer .footer__icon{
+    padding-bottom: 15px;
+    width: 50%;
+  }
+}
+@media (max-width: 700px) {
+  main .bg .bg__inner .bg__inner__tayp {
+    display: none;
+  }
+  main .bg .bg__inner .bg__inner__card {
+    display: block;
+  }
+  main .bg .bg__inner .bg__inner__card .bg__inner__card__box {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+  main .active__simple .active__simple__inner .active__simple__inner__card p {
+    padding-bottom: 30px;
+  }
+  main .active__simple .active__simple__inner {
+    display: block;
+    margin-bottom: 50px;
+  }
+  main .active__simple .active__simple__inner .active__simple__inner__card h3 {
+    padding-top: 15px;
+  }
+  main .active__simple .active__simple__inner .active__simple__inner__card {
+    width: 100%;
+    margin: auto;
+  }
+  main .active__button{
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  main .brek .brek__card {
+    text-align: center;
+    width: 100%;
+  }
+  main .brek .brek__card .brek__card__title {
+    margin: 0px;
+  }
+  main .brek .brek__card .brek__card__description {
+    margin: 0px;
+    padding: 30px;
+  }
+  main .brek .brek__card .brek__card__title {
+    font-size: 45px;
+  }
+  footer .footer__logo nav ul{
+    display: block;
+  }
+  footer .footer__logo nav ul li a{
+    margin-top: 10px;
+  }
+  footer .footer__icon{
+    margin-top: -30px;
+  }
+  main .active__button{
+    justify-content: center;
+  }
+}
